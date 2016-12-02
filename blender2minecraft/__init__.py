@@ -54,7 +54,7 @@ class ExportBlockModel(Operator, ExportHelper):
     minify = BoolProperty(
             name="Minify Json",
             description="Reduces size of exported .json by omitting redundant whitespaces",
-            default=True,
+            default=False,
             )
 
     fplTransform = bpy.props.FloatVectorProperty(
